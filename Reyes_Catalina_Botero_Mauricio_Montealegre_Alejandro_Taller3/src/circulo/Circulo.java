@@ -18,6 +18,7 @@ public abstract class Circulo extends Thread{
 	
 	public Circulo(PApplet app) {
 		this.app = app;
+		
 		vel = new PVector(app.random(app.random(-3,-1f), app.random(1,3)), app.random(app.random(-3,-1), app.random(1,3)));
 		ace = new PVector(0, 0);
 		h= app.random(220,360);
